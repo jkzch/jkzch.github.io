@@ -24,7 +24,7 @@ popun[1]="http://gfivyrc.s602.xrea.com";
 popun[2]="http://redp.s1009.xrea.com";
 popun[3]="http://oye.wpblog.jp/?r=1";
 popun[4]="http://faketaxi.s602.xrea.com/?random=1";    
-popun[5]="http://dymusz.s1007.xrea.com";
+popun[5]="http://dymusz.s1007.xrea.com/?r=1";
 popun[6]="http://ceivy.s1007.xrea.com";
 popun[7]="http://hen38.s1007.xrea.com";
 popun[8]="http://tnayr.s1007.xrea.com/";
