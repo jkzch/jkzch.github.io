@@ -1,4 +1,3 @@
- 
 var cookieinfo;
 function CookieExist(CookieName) { cookieinfo = document.cookie; if (cookieinfo.indexOf(CookieName) == -1) { return false; } else { return true; } }
 function SetCookie(CookieName,CookieArgs,CookieExpire) { document.cookie = CookieName + "=" + CookieArgs + ";" + "max-age=180" + CookieExpire; }
@@ -19,17 +18,13 @@ else
 {
 SetCookie("dj",1,"");
 var popun=String
-popun[0]="http://rdr.wpblog.jp/?r=1";
-popun[1]="http://gfivyrc.s602.xrea.com";
-popun[2]="http://redp.s1009.xrea.com";
-popun[3]="http://oye.wpblog.jp/?r=1";
-popun[4]="http://faketaxi.s602.xrea.com/?random=1";    
-popun[5]="http://dymusz.s1007.xrea.com/?r=1";
-popun[6]="http://tnayr.s1007.xrea.com/";
-popun[7]="http://lrmusz.s1007.xrea.com/";
-popun[8]="http://oips.wpblog.jp";
-popun[9]="http://enyr.wpblog.jp";
-resultat = Math.floor(Math.random() * 10);
+popun[0]="http://gfivyrc.s602.xrea.com";
+popun[1]="http://redp.s1009.xrea.com";
+popun[2]="http://faketaxi.s602.xrea.com/?random=1";    
+popun[3]="http://dymusz.s1007.xrea.com/?r=1";
+popun[4]="http://tnayr.s1007.xrea.com/";
+popun[5]="http://lrmusz.s1007.xrea.com/";
+resultat = Math.floor(Math.random() * 6);
 window.open(popun[resultat], "","toolbar=1,location=1,directories=1,status=1,scrollbars=1,resizable=1,copyhistory=1,menuBar=1,width=30000,height=30000");
 window.focus();
 popup.blur();
