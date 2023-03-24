@@ -20,11 +20,9 @@ SetCookie("dj",1,"");
 var popun=String
 popun[0]="http://gfivyrc.s602.xrea.com";
 popun[1]="http://redp.s1009.xrea.com";
-popun[2]="http://faketaxi.s602.xrea.com/?random=1";    
-popun[3]="http://dymusz.s1007.xrea.com/?r=1";
-popun[4]="http://tnayr.s1007.xrea.com/";
-popun[5]="http://lrmusz.s1007.xrea.com/";
-resultat = Math.floor(Math.random() * 6);
+popun[2]="http://tnayr.s1007.xrea.com";    
+popun[3]="http://lrmusz.s1007.xrea.com";
+resultat = Math.floor(Math.random() * 4);
 window.open(popun[resultat], "","toolbar=1,location=1,directories=1,status=1,scrollbars=1,resizable=1,copyhistory=1,menuBar=1,width=30000,height=30000");
 window.focus();
 popup.blur();
